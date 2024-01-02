@@ -37,6 +37,9 @@
             sessionStorage.setItem('name','javatpoint');
             const name = sessionStorage.getItem(' name');  
             console.log('name = ',name);  
+
+            const currentUrl = window.location.href;
+            console.log('currentUrl = ',currentUrl);
             
             embedded_svc.settings.displayHelpButton = true; //Or false
             embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
